@@ -28,6 +28,7 @@ button.addEventListener("click", (e) => {
   main.appendChild(task);
   main.appendChild(deleteButton);
   main.appendChild(check);
+  div.appendChild(main);
 
   var current_tasks = document.querySelectorAll(".delete");
   for (var i = 0; i < current_tasks.length; i++) {
